@@ -8,7 +8,7 @@ const CommentCreate = ({ postId }) => {
     e.preventDefault();
 
     await axios.post(`http://localhost:4001/posts/${postId}/comments`, {
-        content
+      content,
     });
 
     setContent('');
@@ -21,7 +21,7 @@ const CommentCreate = ({ postId }) => {
            <label>New Comment</label>
            <input
              value={content}
-             onChange={e => setContent(e.target.value)}
+             onChange={(e) => setContent(e.target.value)}
              className="form-control"
            />
         </div>
