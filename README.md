@@ -1,1 +1,1 @@
-# Microservices with React [microservice lesson]
+# Microservices with React & Node [microservice lesson]
