@@ -22,17 +22,15 @@ app.post('/events', (req, res) => {
   }
 
   if (type === 'CommentCreated') {
-    const { id, content, postId } = data;
+    const { id, content, postId, status } = data;
 
     const post = posts[postId];
-    post.comments.push({ id, content });
+    post.comments.push({ id, content, status });
   }
-
-  //console.log(posts);
 
   res.send({});
 });
 
 app.listen(4002, () => {
-    console.log('Listening on port 4002');
+  console.log('Listening on port 4002');
 });
