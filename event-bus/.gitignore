@@ -4,6 +4,7 @@
 .pnp.js
 .vscode
 .cache
+.history
 
 # testing
 /coverage

@@ -8,7 +8,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const posts = {};
-
 const handleEvent = (type, data) => {
   if (type === 'PostCreated') {
     const { id, title } = data;
@@ -62,3 +61,16 @@ app.listen(4002, async () => {
     console.log(error.message);
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
