@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: posts
-          image: koushik80/posts:0.0.1
+          image: koushik80/posts:0.0.5
