@@ -1,1 +1,2 @@
-# Microservices with a simple React App & Node [lesson]
+# Microservices with React & Node
+[Docker, Kubernetes]
